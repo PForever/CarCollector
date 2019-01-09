@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCollector", "CarCollector\CarCollector.csproj", "{2AA3B633-3FDB-4A82-9B16-CA37403B0BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\CarNumberCollector\Model\Model.csproj", "{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA3B633-3FDB-4A82-9B16-CA37403B0BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA3B633-3FDB-4A82-9B16-CA37403B0BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA3B633-3FDB-4A82-9B16-CA37403B0BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA3B633-3FDB-4A82-9B16-CA37403B0BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6448F0C8-E8DF-4BC4-AE50-AB95D036AD96}
+	EndGlobalSection
+EndGlobal
