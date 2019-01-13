@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCollector", "CarCollecto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\CarNumberCollector\Model\Model.csproj", "{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormHelpLibrary", "..\WindowsFormHelpLibrary\WindowsFormHelpLibrary\WindowsFormHelpLibrary.csproj", "{EB6756B1-1010-4243-8022-408209B220EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +23,15 @@ Global
 		{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CAACC38-D65B-4FC3-B4B4-2A55C8D24245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6756B1-1010-4243-8022-408209B220EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6756B1-1010-4243-8022-408209B220EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6756B1-1010-4243-8022-408209B220EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6756B1-1010-4243-8022-408209B220EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6448F0C8-E8DF-4BC4-AE50-AB95D036AD96}
+		SolutionGuid = {80166754-B7F1-4F39-B67E-58AD2934B70D}
 	EndGlobalSection
 EndGlobal

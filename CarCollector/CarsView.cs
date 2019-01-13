@@ -3,11 +3,9 @@ using Model.Data;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WindowsFormHelpLibrary;
+using WindowsFormHelpLibrary.SortableBindingList;
+using WindowsFormHelpLibrary.FilterHelp;
 using System.Windows.Forms;
 
 namespace CarCollector
@@ -15,6 +13,7 @@ namespace CarCollector
     public partial class CarsView : Form
     {
         private MainWindowModel _model;
+        private PropertiesFilter _filters = new PropertiesFilter(typeof(Car));
         public CarsView()
         {
             InitializeComponent();

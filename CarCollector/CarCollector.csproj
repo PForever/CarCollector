@@ -42,6 +42,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -110,6 +111,10 @@
     <ProjectReference Include="..\..\CarNumberCollector\Model\Model.csproj">
       <Project>{5caacc38-d65b-4fc3-b4b4-2a55c8d24245}</Project>
       <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WindowsFormHelpLibrary\WindowsFormHelpLibrary\WindowsFormHelpLibrary.csproj">
+      <Project>{eb6756b1-1010-4243-8022-408209b220eb}</Project>
+      <Name>WindowsFormHelpLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
